@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "52b26049-6e2e-4302-8258-e9f8861a881f",
+  "alias": "PeopleDirectoryWebPart",
+  "componentType": "WebPart",
+  "version": "1.5.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "SharePointFullPage", "TeamsTab", "TeamsPersonalApp"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "People Directory" },
+    "description": { "default": "Search people in the corporate directory" },
+    "officeFabricIconFontName": "CompanyDirectory",
+    "properties": {
+      "title": "People Directory",
+      "additionalFilterKQL": ""
+    }
+  }]
+}

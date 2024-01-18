@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "MagiClick SPO Webparts",
+    "id": "49a23bef-5af7-4dca-a6b2-b0dcac59f3c9",
+    "version": "1.5.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPO webparts provided by MagiClick"
+      },
+      "longDescription": {
+        "default": "Package contains several webparts useful for SharePoint Online"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "MagiClick SPO Webparts Feature",
+        "description": "The feature that activates elements of the MagiClick SPO Webparts solution.",
+        "id": "2429843f-5c4f-4ca3-aa86-df3febabdb51",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/magiclick-spo-webparts.sppkg"
+  }
+}

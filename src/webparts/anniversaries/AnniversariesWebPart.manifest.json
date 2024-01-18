@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7861ef38-7fed-42fa-a97a-a80f445ba79e",
+  "alias": "AnniversariesWebPart",
+  "componentType": "WebPart",
+  "version": "1.5.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+      "SharePointWebPart",
+      "TeamsPersonalApp",
+      "TeamsTab",
+      "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+      {
+          "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+          "group": {
+              "default": "Advanced"
+          },
+          "title": {
+              "default": "Anniversaries"
+          },
+          "description": {
+              "default": "Anniversaries description"
+          },
+          "officeFabricIconFontName": "BirthdayCake",
+          "properties": {
+              "description": "Anniversaries",
+              "title": "Anniversaries",
+              "pageSize": 10,
+              "personaSize": 14,
+              "daysFromTodayFilter": 7,
+              "daysBeforeTodayFilter": 0,
+              "dateField": "RefinableDate00",
+              "filterField": "RefinableDate00",
+              "dateFieldAs": "1",
+              "textField": "Title",
+              "secondaryTextField": "JobTitle",
+              "tertiaryTextField": "Department",
+              "noResultsMessage": "There are no anniversaries for the next days.",
+              "celebrateIcon": "BirthdayCake"
+          }
+      }
+  ]
+}

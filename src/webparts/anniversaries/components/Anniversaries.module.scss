@@ -1,0 +1,26 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.anniversaries {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.birthdayCard {
+  border: 1px solid #ebebeb;
+  padding: 1rem;
+}
+
+.pagination {
+  & div {
+    padding: 0 
+  }
+}
+
+.pagination_buttons {
+  margin: auto
+}
